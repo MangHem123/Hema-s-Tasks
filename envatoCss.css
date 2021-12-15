@@ -1,0 +1,301 @@
+.fixed-head{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+    z-index: 1000;
+}
+.pad{
+    margin-top: 100px;
+}
+.logo{
+    
+    background-color: tomato;
+    background-size: cover;
+}
+.grey-bg{
+    background-color: grey;
+    background-size: cover
+}
+.slider-bg{
+    background-image: url("envato images/img_slider-01.jpeg");
+    
+    background-size: cover
+}
+.carosel-img{
+    position:relative;
+    left: 30vh;
+    height:80vh;
+    width: 40vh;
+    margin: 0%;
+}
+.book-bg{
+    background-image: url("envato images/img_banner-01.jpeg");
+    background-size: cover;
+    height: 30vh;
+}
+.case-bg{
+    background-image: url("envato images/img_banner-02.jpeg");
+    background-size: cover;
+    height: 30vh;
+}
+.online-bg{
+    background-image: url("envato images/img_banner-03.jpeg");
+    background-size: cover;
+    height: 30vh;
+}
+.book-bg:hover,.case-bg:hover,.online-bg:hover{
+    transform: scale(1.2);
+   height:32vh;
+}
+.blog-img{
+    height: 120px;
+    width: 120px;
+}
+.slider-card{
+    position: relative;
+    bottom: 10px;
+    left: 30px;
+    height: 460px;
+    width: 300px;
+}
+
+.p1{
+    background-image: url("envato images/img_banner-04.jpeg");
+    background-size: cover;
+    height:400px;
+    background-position: center center;
+}
+.p1:hover{
+    background-image: url("envato images/img_banner-04.jpeg");
+    background-size: cover;
+    height:420px;
+    background-position: center center;
+}
+.p2{
+    background-image: url("envato images/img_banner-05.jpeg");
+    height: 200px;
+    background-size: cover; 
+    background-position: center center;
+}
+.p3{
+    background-image: url("envato images/img_banner-06.jpeg");
+    height: 200px;
+    background-size: cover; 
+    background-position: center center;
+}
+.p4{
+    background-image: url("envato images/img_banner-07.jpeg");
+    height: 200px;
+    background-size: cover; 
+    background-position: center center;
+}
+.p5{
+    background-image: url("envato images/img_banner-08.jpeg");
+    height: 200px;
+    background-size: cover; 
+    background-position: center center;
+    border: 1px solid white;
+}
+.border1{
+    border: 1px solid white;
+}
+
+.card1{
+    height: 440px;
+    background-color: whitesmoke;
+}
+.fixed-bg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("envato images/bg_home-parallax-02.jpeg");
+}
+.flex{
+    display: flex;
+    position: relative;
+    left: 35px;
+}
+.news-bg{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("envato images/news-bg.jpeg");
+}
+.jimmy{
+    border-radius: 50%;
+   
+    opacity: 0.5;
+}
+.jimmy:hover{
+    
+   
+    opacity: 1;
+}
+.news-btn{
+    position: relative;
+    bottom: 50px;
+    background-color: tomato;
+    letter-spacing: 5px;
+}
+.subscribe{
+    background-color: tomato;
+   border: none;
+   letter-spacing: 5px;
+   margin: 0px;
+   color:white;
+   font-size:20px;
+}
+ 
+.footer-bg-img{
+    background-image: url("envato images/bg_footer-parallax.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* .footer-bg-img{
+    position:relative;
+    
+    }
+    .footer-bg-img::before{
+        content:"";
+       background-image: url("images/bg_footer-parallax.jpeg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       position: absolute;
+       top:0px;
+       right:0px;
+       bottom: 0px;
+       left:0px;
+       opacity:0.75;
+    }
+    
+    .orange-card{
+       position: relative;
+       background-color:#c15d49;
+    }
+    .footer-bg-img1{
+       background-color:grey ;
+    
+    } */
+.partners-1stimg{
+    height: 400px;
+}
+
+
+.flip-box {
+    background-color: transparent;
+   width: 300px;
+   height: 200px;
+   
+   perspective: 1000px;
+ }
+ 
+ .flip-box-inner {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+ }
+ 
+ .flip-box:hover .flip-box-inner {
+   transform: rotateX(180deg);
+ }
+ 
+ .flip-box-front, .flip-box-back {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+ }
+ 
+ .img1frnt {
+   background-image:url("envato images/img_banner-05.jpeg");
+   background-size: cover;
+   border:1px solid white;
+   color: black;
+
+ }
+ 
+ .img1back{
+   background-color: red;
+   border:1px solid white;
+   color: white;
+   transform: rotateX(180deg);
+ }
+
+ .img2frnt {
+   background-image:url("envato images/img_banner-06.jpeg");
+   background-size: cover;
+   color: black;
+ }
+ 
+ .img2back{
+   background-color: red;
+   color: white;
+   transform: rotateX(180deg);
+ }
+ .img3frnt {
+   background-image:url("envato images/img_banner-07.jpeg");
+   background-size: cover;
+   color: black;
+ }
+ 
+ .img3back{
+   background-color: red;
+   color: white;
+   transform: rotateX(180deg);
+ }
+ .img4frnt {
+   background-image:url("envato images/img_banner-08.jpeg");
+   background-size: cover;
+   width:100%;
+   color: black;
+ }
+ 
+ .img4back{
+   background-color: red;
+   width:100%;
+   color: white;
+   transform: rotateX(180deg);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .blog-img{
+      height: 300px;
+      width: 300px;
+      align-content: center;
+      display: block;
+  }
+  .partners-1stimg{
+    height: 330;
+    width: 330px;
+}
+.logo{
+    position: relative;
+    right: 0px;
+    background-color: tomato; 
+}
+.pad{
+    margin-top: 280px;
+}
+};
